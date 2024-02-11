@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(241, 239, 239);
+    margin: 0;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header h1{
+    margin:0;
+    
+}
+
+section h2{
+    display: inline-block;
+    width: 80%;
+    margin:0;
+/* I made a mistake here with 80% and then 20px below*/
+}
+section span{
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+    text-align: right;
+    color: #808080;
+    /*somehow this mistake worked out ok*/
+    /*it seems the width px isn't effecting this*/
+    
+}
+div.post{
+    background-color: white;
+    margin-top: 10px;
+}
+div.post h2, div.post p{
+    padding: 10px;
+}
+/*review this selector, learn logic of selection*/
+main{
+    width: 600px;
+    margin:auto;
+}
+div.post img{
+    width: 100%;}
+    /*why wasn't the class .post img enough to select it?*/
